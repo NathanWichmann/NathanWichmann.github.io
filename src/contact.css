@@ -1,0 +1,22 @@
+/* @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/tyopgraphy.min.css"); */
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+
+#contact-form {
+  
+   text-align: center;
+}
+   
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 600px;
+
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}

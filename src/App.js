@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from "./components/Home";
 import About from "./components/About";
-import SinglePost from "./components/SinglePost";
-import Post from "./components/Post";
+import Posts from "./components/Posts";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 
 function App() {
@@ -14,11 +15,13 @@ function App() {
     <Switch>
       <Route component={Home} path='/' exact /> 
       <Route component={About} path='/about'/> 
-      <Route component={SinglePost} path='/post/:slug'/> 
-      <Route component={Post} path='/post'/> 
+      <Route component={Posts} path='/posts'/> 
       <Route component={Project} path='/project'/> 
-      
+      <Route component={Contact} path='/Contact'/> 
+      <Route component={Resume} path='/resume'/> 
+
     </Switch>
+    
     </BrowserRouter>
   );
 }

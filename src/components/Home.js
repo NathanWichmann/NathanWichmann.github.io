@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../ancient-computer.png";
 
+
 const Home = () => {
   return (
     <main>

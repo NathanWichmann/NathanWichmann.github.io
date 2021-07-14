@@ -11,7 +11,7 @@ const NavBar = () => {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-left py-6 px-3 mr-4 text-gray-100 hover:text-gray-600 text-4xl font-bold tracking-widest"
+            className="inflex-flex items-left py-6 px-3 mr-4 text-gray-100 hover:text-gray-600 text-6xl font-bold tracking-widest"
           >
             Wichmann
           </NavLink>
@@ -30,11 +30,17 @@ const NavBar = () => {
             Portfolio
           </NavLink>
           <NavLink
-            to="post"
+            to="contact"
             activeClassName="text-white"
             className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           >
             Contact
+          </NavLink>
+          <NavLink
+            to="resume"
+            activeClassName="text-white"
+            className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
+          > Resume
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6 ">
