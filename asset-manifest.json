@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.31fc3183.chunk.css",
-    "main.js": "/static/js/main.8235a7b5.chunk.js",
-    "main.js.map": "/static/js/main.8235a7b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.50c1eb1f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.50c1eb1f.js.map",
-    "static/css/2.694d25f7.chunk.css": "/static/css/2.694d25f7.chunk.css",
-    "static/js/2.f7d400e0.chunk.js": "/static/js/2.f7d400e0.chunk.js",
-    "static/js/2.f7d400e0.chunk.js.map": "/static/js/2.f7d400e0.chunk.js.map",
-    "static/js/3.8915efe4.chunk.js": "/static/js/3.8915efe4.chunk.js",
-    "static/js/3.8915efe4.chunk.js.map": "/static/js/3.8915efe4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.694d25f7.chunk.css.map": "/static/css/2.694d25f7.chunk.css.map",
-    "static/css/main.31fc3183.chunk.css.map": "/static/css/main.31fc3183.chunk.css.map",
-    "static/js/2.f7d400e0.chunk.js.LICENSE.txt": "/static/js/2.f7d400e0.chunk.js.LICENSE.txt",
-    "static/media/Selfy.f628cc07.jpg": "/static/media/Selfy.f628cc07.jpg",
-    "static/media/Web-Developer-Resume.9581c549.pdf": "/static/media/Web-Developer-Resume.9581c549.pdf",
-    "static/media/ancient-computer.308a5aa4.png": "/static/media/ancient-computer.308a5aa4.png",
-    "static/media/life-comfort.871fad0a.jpg": "/static/media/life-comfort.871fad0a.jpg"
+    "main.css": "/My-App/static/css/main.7ba20575.chunk.css",
+    "main.js": "/My-App/static/js/main.75c0b55b.chunk.js",
+    "main.js.map": "/My-App/static/js/main.75c0b55b.chunk.js.map",
+    "runtime-main.js": "/My-App/static/js/runtime-main.c5786225.js",
+    "runtime-main.js.map": "/My-App/static/js/runtime-main.c5786225.js.map",
+    "static/css/2.694d25f7.chunk.css": "/My-App/static/css/2.694d25f7.chunk.css",
+    "static/js/2.2ba9cf41.chunk.js": "/My-App/static/js/2.2ba9cf41.chunk.js",
+    "static/js/2.2ba9cf41.chunk.js.map": "/My-App/static/js/2.2ba9cf41.chunk.js.map",
+    "static/js/3.8c5f3093.chunk.js": "/My-App/static/js/3.8c5f3093.chunk.js",
+    "static/js/3.8c5f3093.chunk.js.map": "/My-App/static/js/3.8c5f3093.chunk.js.map",
+    "index.html": "/My-App/index.html",
+    "static/css/2.694d25f7.chunk.css.map": "/My-App/static/css/2.694d25f7.chunk.css.map",
+    "static/css/main.7ba20575.chunk.css.map": "/My-App/static/css/main.7ba20575.chunk.css.map",
+    "static/js/2.2ba9cf41.chunk.js.LICENSE.txt": "/My-App/static/js/2.2ba9cf41.chunk.js.LICENSE.txt",
+    "static/media/Selfy.f628cc07.jpg": "/My-App/static/media/Selfy.f628cc07.jpg",
+    "static/media/Web-Developer-Resume.9581c549.pdf": "/My-App/static/media/Web-Developer-Resume.9581c549.pdf",
+    "static/media/ancient-computer.308a5aa4.png": "/My-App/static/media/ancient-computer.308a5aa4.png",
+    "static/media/life-comfort.871fad0a.jpg": "/My-App/static/media/life-comfort.871fad0a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.50c1eb1f.js",
+    "static/js/runtime-main.c5786225.js",
     "static/css/2.694d25f7.chunk.css",
-    "static/js/2.f7d400e0.chunk.js",
-    "static/css/main.31fc3183.chunk.css",
-    "static/js/main.8235a7b5.chunk.js"
+    "static/js/2.2ba9cf41.chunk.js",
+    "static/css/main.7ba20575.chunk.css",
+    "static/js/main.75c0b55b.chunk.js"
   ]
 }
