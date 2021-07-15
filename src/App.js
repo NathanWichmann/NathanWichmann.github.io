@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,10 +20,17 @@ function App() {
       <Route component={Project} path='/project'/> 
       <Route component={Contact} path='/Contact'/> 
       <Route component={Resume} path='/resume'/> 
+      
 
     </Switch>
-    
+ 
+    <div className="page-container">
+      
+  <Footer />
+    </div>
+  
     </BrowserRouter>
+    
   );
 }
 

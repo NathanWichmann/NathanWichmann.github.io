@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 
+
 const NavBar = () => {
   return (
     <header className="bg-gray-500">
@@ -42,6 +43,7 @@ const NavBar = () => {
             className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           > Resume
           </NavLink>
+          
         </nav>
         <div className="inline-flex py-3 px-3 my-6 ">
           <SocialIcon
@@ -65,9 +67,11 @@ const NavBar = () => {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
+          
         </div>
       </div>
     </header>
+    
   );
 };
 

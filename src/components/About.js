@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../Selfy.jpg";
 import life from "../life-comfort.jpg";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -29,7 +30,9 @@ const About = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </main>
+
   );
 };
 
