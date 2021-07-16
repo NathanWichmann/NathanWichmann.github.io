@@ -2,6 +2,8 @@
 This repository (My-App aka Portfolio) is an educational homework assignment from the CARL-OTT-FSF-PT-02-20121-U-C course. It was designed to help students become more familiar with React. 
 
 [![Deploy](https://www.github.com/deploy/button.svg)](https://nathanwichmann.github.io/)
+<a href="https://nathanwichmann.github.io/">Deployed to gh-pages</a>
+
 
 ## Table of Contents 
 - [Unit 20: React: Portfolio](#unit-20-react-portfolio)
@@ -27,7 +29,7 @@ This application is a web-developer portfolio that will be used to show potentia
 
 # Installation 
 This application uses React as the main platform and my different dependencies;
-"dependencies": {
+`"dependencies": {
     "@material-ui/core": "^4.12.1",
     "@progress/kendo-drawing": "^1.10.1",
     "@progress/kendo-react-pdf": "^4.7.0",
@@ -55,7 +57,7 @@ This application uses React as the main platform and my different dependencies;
     "gh-pages": "^3.2.3",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
-  }
+  }`
   This application is published on gh-pages and all sections are functional. The only issue is that I still have to work out is the mobile first respone. Material ui seems to have automatically used a mobile first appraoch, while the tailwind version boasts about being mobile first, the way it is used here that is not the case.
 
 # Usage 
@@ -67,6 +69,7 @@ I learnt a great deal making this application. There were many issues along the 
 
 ## Credits 
 <a href="https://github.com/NathanWichmann/">GitHub Link For Nathan Wichmann</a>
+
 Tutor: Joey Rodregez 
 Instructor: Adam 
 Teachers Assistants: BEN & AIDEN
