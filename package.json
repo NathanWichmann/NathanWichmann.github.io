@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nathanwichmann.github.io",
+  "homepage": "https://nathanwichmann.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.12.1",
     "@progress/kendo-drawing": "^1.10.1",
