@@ -1,21 +1,21 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-
+import class1 from '../img/class1.png';
 import Post from './Posts';
+import budget from '../img/budgettracker3.png';
+import fitness from '../img/fitness-tracker3.png';
+import insomnia from '../img/insomnia.png';
+import notetaker from '../img/NoteTake.png';
+import SkewedNews from '../img/SkewedNews.png';
+import techbook from '../img/techbookProject.png';
+import under from '../img/under-construction.png'
 
-// you could put this in a util file to clean it up
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  return images;
-}
-const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg)$/));
-{/* <img src={images['doggy.png']} /> */} // an example of how to use the image
+
 
 const projects = [
     {   id: 1,
-        image: "class1.png",
+        image: class1,
         title: "Class",
         description: "Model, View, Controller: This model of web development, creates a seperation of concerns, allowing for code to be seperated an easily accessed.",
         href1: "https://github.com/NathanWichmann/Class",
@@ -23,49 +23,49 @@ const projects = [
         
     },
     {   id: 2,
-        image: "insomnia.png",
+        image: insomnia,
         title: "E-Commerce",
         description: "Using Object-Relation-Mapping, this project indtroduces student's to Relational database management. Sequelize and MySql querries were used.",
         href1: "https://github.com/NathanWichmann/E-Commerce",
         href: "https://www.youtube.com/watch?v=95uSCnxoyOc"
     },
     {   id: 3,
-        image: "budgettracker3.png",
+        image: budget,
         title: "Budget Tracker",
         description: "Progressive Web Applications: Using a web app manifest and a service worker, this application allows users to store and save data when offline and add back once online",
         href1: "https://github.com/NathanWichmann/BudgetTracker",
         href: "https://lit-spire-34118.herokuapp.com/"
     },
     {   id: 4,
-        image: "fitness-tracker3.png",
+        image: fitness,
         title: "Fitness Tracker",
         description: "NoSql Databases: NoSql database Mongobd, with mongoose and Mongo Atlas were used and deployed to Heroku, to create a single user workout tracker.",
         href1: "https://github.com/NathanWichmann/FitnessTracker",
         href: "https://tranquil-eyrie-67751.herokuapp.com/?id=60d79acddce3a10020392803"
     },
     {   id: 5,
-        image: "techbookProject.png",
+        image: techbook,
         title: "Group Project: Techbook",
         description: "Techbook allows people from the Tech industry to connect with each other, gives recruiters the ability to connect and interact with people, enables students to improve their work.",
         href1: "https://github.com/NathanWichmann/techbook",
         href: "https://my-techbook.herokuapp.com/"
     },
     {   id: 6,
-        image: "SkewedNews.png",
+        image: SkewedNews,
         title: "Group Project: SkewedNews",
         description: "Third Party API'S: Postman third party API was used to bring together, Fox News, BBC news and CNN. Three different sources come together to show how different perspectives of the news can shape political views.",
         href1: "https://github.com/NathanWichmann/SkewedNews",
         href: "https://weird-but-doable.github.io/SkewedNews/"
     },
     {   id: 7,
-        image: "under-construction.png",
+        image: under,
         title: "Group Project: Under Construction",
         description: "To be Determined",
-        href1: "",
-        href: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seekpng.com%2Fipng%2Fu2q8q8w7w7y3y3t4_under-construction-png-file-under-construction-tape-png%2F&psig=AOvVaw1Nii58YvhmYthrwJYvLfiT&ust=1626183502292000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMD49eTT3fECFQAAAAAdAAAAABAD"
+        href1: "https://www.google.com/search?q=under+construction&rlz=1C1ONGR_enCA937CA937&oq=under+construction&aqs=chrome..69i57j0i457j0l8.4811j0j15&sourceid=chrome&ie=UTF-8",
+        href: "https://www.google.com/search?q=under+construction&rlz=1C1ONGR_enCA937CA937&oq=under+construction&aqs=chrome..69i57j0i457j0l8.4811j0j15&sourceid=chrome&ie=UTF-8"
     },
     {   id: 8,
-        image: "NoteTake.png",
+        image: notetaker,
         title: "Express/Node: Note Taker",
         description: "A very simple application which uses express and node.js in combination with a json file which acts as a server. First introduction to fetching data.",
         href1: "https://github.com/NathanWichmann/Note-Taker",
@@ -89,8 +89,8 @@ const Project = () => {
             {projects.map((project, idx) => (
               <Grid item key={project.id}>
                 <Post
-                  image={images[project.image]}
                   title={project.title}
+                  image={project.image}
                   description={project.description}
                   key={project.id}
                   href1={project.href1}

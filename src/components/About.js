@@ -13,7 +13,7 @@ const About = () => {
       />
       <div className="p-5 lg:pt48 container mx-auto relative bg-gray-400 bg-opacity-400 rounded md:bg-opacity-400 rounded">
         <section className="big-gray-800 rounded-lg shadow-2xl lg:flex p-20 content-section">
-          <img src={image} alt="potrait" className="rounded w-64 h-64 lg:w-96 lg:h96 mr-8 " />
+          <img src={image} alt="potrait" className="rounded w-96 h-96 lg:w-96 lg:h96 mr-8 " />
           <div>
           
             <div className="text-white-100 hover:text-white-400 text-3xl font-bold "><strong><span className="hello">Hello World!! </span></strong>

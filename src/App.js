@@ -20,9 +20,7 @@ function App() {
       <Route component={Project} path='/project'/> 
       <Route component={Contact} path='/Contact'/> 
       <Route component={Resume} path='/resume'/> 
-      
-
-    </Switch>
+      </Switch>
  
     <div className="page-container">
       
