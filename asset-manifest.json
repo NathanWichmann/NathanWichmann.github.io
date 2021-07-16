@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-App/static/css/main.7ba20575.chunk.css",
-    "main.js": "/My-App/static/js/main.75c0b55b.chunk.js",
-    "main.js.map": "/My-App/static/js/main.75c0b55b.chunk.js.map",
+    "main.js": "/My-App/static/js/main.b83c98c1.chunk.js",
+    "main.js.map": "/My-App/static/js/main.b83c98c1.chunk.js.map",
     "runtime-main.js": "/My-App/static/js/runtime-main.c5786225.js",
     "runtime-main.js.map": "/My-App/static/js/runtime-main.c5786225.js.map",
     "static/css/2.694d25f7.chunk.css": "/My-App/static/css/2.694d25f7.chunk.css",
@@ -14,16 +14,24 @@
     "static/css/2.694d25f7.chunk.css.map": "/My-App/static/css/2.694d25f7.chunk.css.map",
     "static/css/main.7ba20575.chunk.css.map": "/My-App/static/css/main.7ba20575.chunk.css.map",
     "static/js/2.2ba9cf41.chunk.js.LICENSE.txt": "/My-App/static/js/2.2ba9cf41.chunk.js.LICENSE.txt",
+    "static/media/NoteTake.e144f7e3.png": "/My-App/static/media/NoteTake.e144f7e3.png",
     "static/media/Selfy.f628cc07.jpg": "/My-App/static/media/Selfy.f628cc07.jpg",
+    "static/media/SkewedNews.85c805bb.png": "/My-App/static/media/SkewedNews.85c805bb.png",
     "static/media/Web-Developer-Resume.9581c549.pdf": "/My-App/static/media/Web-Developer-Resume.9581c549.pdf",
     "static/media/ancient-computer.308a5aa4.png": "/My-App/static/media/ancient-computer.308a5aa4.png",
-    "static/media/life-comfort.871fad0a.jpg": "/My-App/static/media/life-comfort.871fad0a.jpg"
+    "static/media/budgettracker3.addd16c4.png": "/My-App/static/media/budgettracker3.addd16c4.png",
+    "static/media/class1.ac4e8780.png": "/My-App/static/media/class1.ac4e8780.png",
+    "static/media/fitness-tracker3.2962685e.png": "/My-App/static/media/fitness-tracker3.2962685e.png",
+    "static/media/insomnia.3978e61b.png": "/My-App/static/media/insomnia.3978e61b.png",
+    "static/media/life-comfort.871fad0a.jpg": "/My-App/static/media/life-comfort.871fad0a.jpg",
+    "static/media/techbookProject.b656e4a8.png": "/My-App/static/media/techbookProject.b656e4a8.png",
+    "static/media/under-construction.56691a7b.png": "/My-App/static/media/under-construction.56691a7b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c5786225.js",
     "static/css/2.694d25f7.chunk.css",
     "static/js/2.2ba9cf41.chunk.js",
     "static/css/main.7ba20575.chunk.css",
-    "static/js/main.75c0b55b.chunk.js"
+    "static/js/main.b83c98c1.chunk.js"
   ]
 }
