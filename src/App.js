@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
     <NavBar />
     <Switch>
-      <Route component={Home} path='/' exact /> 
+      <Route component={Home} path='/My-App' exact /> 
       <Route component={About} path='/about'/> 
       <Route component={Posts} path='/posts'/> 
       <Route component={Project} path='/project'/> 
