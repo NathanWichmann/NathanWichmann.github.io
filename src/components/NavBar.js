@@ -6,41 +6,41 @@ import { SocialIcon } from "react-social-icons";
 const NavBar = () => {
   return (
     <header className="bg-gray-500">
-      <div className="container mx-auto flex justify-between">
+      <div className=" container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-left py-6 px-3 mr-4 text-gray-100 hover:text-gray-600 text-6xl font-bold tracking-widest"
+            className="max-w-md mx-auto inflex-flex items-left py-6 px-3 mr-4 text-gray-100 hover:text-gray-600 text-6xl font-bold tracking-widest"
           >
             Wichmann
           </NavLink>
           <NavLink
-            to="/about"
+            to="about"
             activeClassName="text-white"
-            className="inflex-flex items-center py-3 px-3 mr-6 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
+            className="max-w-md mx-auto inflex-flex items-center py-3 px-3 mr-6 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           >
             About Me
           </NavLink>
           <NavLink
-            to="/project"
+            to="project"
             activeClassName="text-white"
-            className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
+            className="max-w-md mx-auto inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           >
             Portfolio
           </NavLink>
           <NavLink
-            to="/contact"
+            to="contact"
             activeClassName="text-white"
-            className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
+            className="max-w-md mx-auto inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           >
             Contact
           </NavLink>
           <NavLink
-            to="/resume"
+            to="resume"
             activeClassName="text-white"
-            className="inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
+            className="max-w-md mx-auto inflex-flex items-center py-3 px-3 mr-4 text-gray-400 hover:text-gray-600 text-4xl font-bold tracking-widest"
           > Resume
           </NavLink>
           
