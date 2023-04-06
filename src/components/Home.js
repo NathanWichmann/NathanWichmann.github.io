@@ -7,7 +7,7 @@ const Home = () => {
       <section className="relative flex justify-center pb-5 pt-3 px-3">
         <h1 className="text-4xl font-bold cursive leading:none lg:leading-snug home-name ">
           <p>
-            Hello, My name is Nathan Wichman and I am a budding Full Stack Web
+            Hello, My name is Nathan Wichmann and I am a budding Full Stack Web
             Developer.
           </p>
           <ol>
