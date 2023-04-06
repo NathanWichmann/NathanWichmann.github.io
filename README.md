@@ -2,7 +2,7 @@
 This repository (My-App aka Portfolio) is an educational homework assignment from the CARL-OTT-FSF-PT-02-20121-U-C course. It was designed to help students become more familiar with React. 
 
 
-<a href="https://nathanwichmann.github.io/My-App">Deployed to gh-pages</a>
+<a href="https://nathanwichmann.github.io">Deployed to gh-pages</a>
 
 
 ## Table of Contents 
