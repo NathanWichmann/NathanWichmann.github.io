@@ -55,7 +55,7 @@ export default function ImgMediaCard({
           style={{ height: 35, width: 35 }}
         />
         <Button href={href} size="small" color="primary">
-          Heroku Closed: Press GitHub Icon to left
+          Heroku Closed: Press GitHub Icon
         </Button>
       </CardActions>
     </Card>

@@ -78,13 +78,14 @@ const projects = [
 const Project = () => {
     return (
       < >
+      
       <div className="h-full bg-gradient-to-b from-gray-200 to-gray-500">
         {" "}
         <h1 className="flex items-center justify-center py-3 px-3 mr-6 text-gray-400 hover:text-gray-600 text-4xl font-bold">
-          {" "}
           Projects
+          {" "}
         </h1>
-        <Box p={12}>
+        <Box p={4}>
           <Grid container spacing={10}>
             {projects.map((project, idx) => (
               <Grid item key={project.id}>

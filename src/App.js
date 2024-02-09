@@ -21,7 +21,7 @@ function App() {
         <Route component={Resume} path="/resume" />
       </Switch>
 
-      <div className="page-container">
+      <div className="page-container fixed:bottom">
         <Footer />
       </div>
     </BrowserRouter>
